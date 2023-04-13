@@ -232,7 +232,47 @@ section{
         }
 
     }
+    .left-about{
+        padding-right: 5rem;
+        p{
+            line-height: 2rem;
+            padding: 1rem;
+            color: var(--color-gray-1);
+        }
+        h4{
+            font-size: 2rem;
+            text-transform: uppercase;
+        }
+    }
 }
+/* about statitics*/
+.about-stats{
+    padding-bottom: 4rem;
+    .progress-bars{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 2rem;
+        .progress-bar{
+            display: flex;
+            flex-direction: column;
+            .prog-title{
+                text-transform: uppercase;
+                font-weight: 500;
+            }
+            .progress-con{
+                display: flex;
+                align-items: center;
+                .prog-text{
+                    color: var(--color-gray-1);
+                }
+            }
+        }
+    }
+    
+}
+
+
+
 
 /*Independent components*/
 
